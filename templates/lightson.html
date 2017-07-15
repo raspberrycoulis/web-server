@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PiMote Control</title>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css">
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="https://www.raspberrycoulis.co.uk/pimote-favicons/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="https://www.raspberrycoulis.co.uk/pimote-favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="https://www.raspberrycoulis.co.uk/pimote-favicons/favicon-16x16.png">
+   <link rel="manifest" href="https://www.raspberrycoulis.co.uk/pimote-favicons/manifest.json">
+   <link rel="mask-icon" href="https://www.raspberrycoulis.co.uk/pimote-favicons/safari-pinned-tab.svg" color="#3a3a3a">
+   <link rel="shortcut icon" href="https://www.raspberrycoulis.co.uk/pimote-favicons/favicon.ico">
+   <meta name="msapplication-config" content="https://www.raspberrycoulis.co.uk/pimote-favicons/browserconfig.xml">
+   <meta name="theme-color" content="#3a3a3a">
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color:#3a3a3a;">
+    <center><h4 style="color: white;">PiMote Lights Control</h4></center>
+    <center><p style="color: white;">Tap the button below to turn lights on or off.</p></center>
+    <br>
+    <center><a href="/lightson/" class="btn btn-block btn-lg btn-success" role="button">Both On</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/lightsoff/" class="btn btn-block btn-lg btn-danger" role="button">Both Off</a></center>
+    <br>
+    <center><a href="/socket1-on/" class="btn btn-block btn-lg btn-success" role="button">No. 1 On</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/socket1-off/" class="btn btn-block btn-lg btn-danger" role="button">No. 1 Off</a></center>
+    <br>
+    <center><a href="/socket2-on/" class="btn btn-block btn-lg btn-success" role="button">No. 2 On</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/socket2-off/" class="btn btn-block btn-lg btn-danger" role="button">No. 2 Off</a></center>
+    <br>
+    <br>
+    <center><p style="color: white;">If this isn't working properly, tap reset below.</p></center>
+    <center><a href="/" class="btn btn-block btn-lg btn-info" role="button">Reset Page</a></center>
+    <br>
+    <br>
+    <center><p style="color: white;">Be sure to logout!</p></center>
+    <center><a href="/logout/" class="btn btn-block btn-lg btn-warning" role="button">Logout</a></center>
+</body>
+</html>
